@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="heading">Currency converter</div>            
+        <label for="input">Enter amount</label>
+        <input type="text" class="text-box">
+
+        <div class="dropdowns">
+            <div class="from">
+                <p>From</p>
+                <div class="form-inner from-country">
+                    <img class="flag" src="https://flagsapi.com/US/flat/64.png" alt="Flag">
+                    <select name="from" id="contry">
+
+                    </select>
+                </div>
+            </div>
+            <img class="icon" src="https://img.icons8.com/?size=100&id=59872&format=png&color=000000" alt="converter">
+            <div class="to">
+                <p>To</p>
+                <div class="form-inner to-country">
+                    <img class="flag" src="https://flagsapi.com/PK/flat/64.png" alt="Flag">
+                    <select name="to" id="contry">
+                    
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="message">Result...</div>
+        <button>Change</button>
+        
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="code.js"></script> -->
+</body>
+</html>

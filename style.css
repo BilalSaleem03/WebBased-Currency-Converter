@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#124E66;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #526a81;
+    width: 50vh;
+    height: 70vh;
+    margin : auto;
+    margin-top: 20vh;
+    border-radius: 5%;
+
+}
+.heading{
+    font-size: x-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #134367;
+    text-align: center;
+    border-radius: 15px;
+}
+label{
+    margin-top: 2rem;
+    margin-left: 1vw;
+}
+.text-box{
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 15px;
+    padding-left: 1vw;
+    background-color: #124E66;
+}
+.dropdowns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.form-inner{
+    display: flex;
+}
+.form-inner .flag{
+    height: 4rem;
+}
+.form-inner #contry{
+    height: 2.2rem;
+    margin-top: 0.9rem;
+    border: none;
+    background: transparent;
+}
+.icon{
+    height: 2rem;
+}
+.message{
+    font-size: larger;
+    margin-left: 1vw;
+}
+button{
+    height: 5vh;
+    width: 15vw;
+    margin : auto;
+    border-radius: 20px;
+    background-color: #134367;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
